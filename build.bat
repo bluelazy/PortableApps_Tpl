@@ -14,4 +14,7 @@
 @echo Create App\AppInfo\Launcher\%appidname%.ini
 @echo ------------------------------------------------------------------------
 @move .\%appidname%\App\AppInfo\Launcher\AppNamePortable.ini .\%appidname%\App\AppInfo\Launcher\%appidname%.ini
+@echo ================================
+@echo Create App\AppInfo\appinfo.ini
+@echo ------------------------------------------------------------------------
 @call .\cmd\appinfo.bat %1 > .\%appidname%\App\AppInfo\appinfo.ini
