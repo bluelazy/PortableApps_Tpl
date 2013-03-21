@@ -9,6 +9,7 @@
 @echo ================================
 @echo Copy DefaultApp Template To %1
 @echo ------------------------------------------------------------------------
+@call .\cmd\attrib.bat
 @XCOPY .\DefaultAppPortable .\%appidname%\ /D/K/E/Y/C/I/H
 @echo ================================
 @echo Create App\AppInfo\Launcher\%appidname%.ini

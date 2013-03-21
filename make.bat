@@ -12,6 +12,7 @@
 @echo 即將刪除並建立模板資料夾...
 @pause
 @echo Date: %date:~0,4%%date:~5,2%%date:~8,2% %TIME: =0% > log.txt
+@cd %~dp0
 @call build.bat %newname% >> log.txt
 @echo ...完成.
 @pause
