@@ -9,9 +9,12 @@
 @del /f /s /q /A .\%1\*.*
 @RD /s /q .\%1
 @echo ================================
-@echo Copy DefaultApp Template To %1
+@echo attrib.bat
 @echo ------------------------------------------------------------------------
 @call .\cmd\attrib.bat
+@echo ================================
+@echo Copy DefaultApp Template To %1
+@echo ------------------------------------------------------------------------
 @XCOPY .\DefaultAppPortable .\%appidname%\ /D/K/E/Y/C/I/H
 @echo ================================
 @echo Create App\AppInfo\Launcher\%appidname%.ini
