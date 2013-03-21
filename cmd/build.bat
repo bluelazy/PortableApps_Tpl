@@ -1,5 +1,7 @@
 @set appidname=%1Portable
 
+@cd %cd%
+
 @echo make new folder "%1"
 @echo ================================
 @echo Start Clean %1

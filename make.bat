@@ -13,6 +13,6 @@
 @pause
 @echo Date: %date:~0,4%%date:~5,2%%date:~8,2% %TIME: =0% > log.txt
 @cd %~dp0
-@call build.bat %newname% >> log.txt
+@call .\cmd\build.bat %newname% >> log.txt
 @echo ...งนฆจ.
 @pause
