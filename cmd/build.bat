@@ -24,3 +24,7 @@
 @echo Create App\AppInfo\appinfo.ini
 @echo ------------------------------------------------------------------------
 @call .\cmd\appinfo.bat %1 > .\%appidname%\App\AppInfo\appinfo.ini
+@echo ================================
+@echo Create %1Portable.ini
+@echo ------------------------------------------------------------------------
+@call .\cmd\AppNamePortable.bat %1
