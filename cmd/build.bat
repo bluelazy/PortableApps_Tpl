@@ -16,6 +16,7 @@
 @echo Copy DefaultApp Template To %1
 @echo ------------------------------------------------------------------------
 @XCOPY .\DefaultAppPortable .\%appidname%\ /D/K/E/Y/C/I/H
+@move .\%appidname%\App\bin .\%appidname%\App\%1
 @echo ================================
 @echo Create App\AppInfo\Launcher\%appidname%.ini
 @echo ------------------------------------------------------------------------
